@@ -1,3 +1,6 @@
+#ifndef RESTCLIENT_H
+#define RESTCLIENT_H
+
 #include <Arduino.h>
 #include <SPI.h>
 #include <Ethernet2.h>
@@ -54,3 +57,5 @@ class RestClient {
     const char* headers[10];
 	const char* contentType;
 };
+#endif /* RESTCLIENT_H */
+
