@@ -1,6 +1,6 @@
 #include <Arduino.h>
 #include <SPI.h>
-#include <Ethernet.h>
+#include <Ethernet2.h>
 
 class RestClient {
 
